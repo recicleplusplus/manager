@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "reciclaplusnew",
+  "private_key_id": "41483e27179ab6c3a0a4777c78e5be5d655f7825",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDAsKKNpLPSXfZU\n0AAbF35zyxu4w2agGstTL5e30vTdgZFX8uyLuoOLSKaSwOCXProM/ZEE60ii81Kb\ny04rWaqZByrSbWiiBU9RSqiOoc+iWAdDE0m9JXdTgzdIUrY+P7Il0cl71Bu/zVFp\nEfy8cvmf+fgb+n65GKHQCR352eTghyvSwlLNpgVrCNiE3A3Xr9YuHYxl/zAFnQ/2\nyaf4TzQJ+vFYLtlfBfoLmHM8OYELxeqRlKA5jlGKjkU9zxx5FE8LZshkOn+6miH4\n0sNQ47wkZhtDWi5J8kSFm1lWs9A2NhGXzBycbBl/x7L36mkevv5/NhzIBwdgtQJO\nQJ21MaabAgMBAAECggEAFfTqs6DgHBQN6jsrZUA87gfnuEWNJP2jS+7Wkcv4Ordg\nGaP6QAUi+9TtpOJVP+wWD5M4mlVkg6ueBFewfXBsZ/Sbn2Uihk0m7SNIkrwt00Nx\nobs0bK5fawTpiz8K5OFQNPld7/4gTVpMMQtWKnPK2GeyVcnU9Srb4Wnwiv8WaAkn\nHHOCBs6znAQBvyJXFvVykmyb9RoURyKQ3S0PalZHC+JjYtqH5a9kMgJUekUB5IG2\nVj+dL5AYWd+Xhm3WHt5guNhIFeXtw9UpUCRVx7+X1CEJrlttNQhQ/9BWLez3fPaG\nhJftoPbyF/7zOGhmnq+LxuolEt4ISbhtzRrEl4JryQKBgQDi+atlx+9lGPEmHPQt\nHA4L4xrfSy7ORzE7rRNZW92/cq79Q4rvDpHXY/YRQGNaY4kYfTp8oIi/hqhp2fXD\nK/fo2/JvyQHd5B++RkCiwBRXRbl0E87eIiPHxiie6aO/P7kb32eYdXPhBiUAiyvq\nrfGaKoTZCVQTS735ghawvIHWYwKBgQDZVJeGD9dTrHxi7veoAvTrRPcWeDiTS2G1\n+0UU5d7tk/ZaEV0YS0GJM8QNXuVWXRAYiF600JA+Orm93Mzy9iuX+zvjhXVar4hL\n61++U6QkGF38dLxDZKdGcvIbylce+AHmVH129rNH4tuLJPT25hqgeKqpDHXcS0lE\nOKuPwO3oaQKBgQDC+ITq4VwbE9nSS3zUYw0N2P/0X7jNKQp5oKrGT8uj8PewRpzJ\nzVIqG4v8Nbsioe3aQ3hCJgRRwXJZuwkJpnNGa+lNbPVVjehWojJTm3vdm986fuls\nlxb1PJsYJsqqNirkbnum0v2/hm+yj9ohtVmcfHmxlfnKuX1vHvguyT8e0QKBgHHf\njAFXnYifMRGZirRC0FfR6/GfDm3HKqxyuxCnHXa4d3Vb8b5/+BfOwuQKm/nzizJ/\nibgOK/YfSSF9ZvnLGK5qmketrv7USIMXEjSkmLW8+soD1H0vaSJVqhv7mkiExGIO\nVSsXOnrpGAXBWIVhrgP1Fd67w6mo3PvdAa+x9DY5AoGADRn14kp/CIFE36VqZ4fE\n10+LNvG8xZzI18CUNjbvEM5ATAM/WQpyCj/L1yw7sAg66ggztnVUDTX1WhxYcopU\nkQhZbBwYyeguAm+8EZfL83rYoqpiKFC1NJORGU84g+XnvrxfctQaaIbTRMnSi05l\nlYxL79i0MEr6t9SxdtOjF2s=\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-luav4@reciclaplusnew.iam.gserviceaccount.com",
+  "client_id": "105728052863947425214",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-luav4%40reciclaplusnew.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
