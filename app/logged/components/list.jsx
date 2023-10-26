@@ -29,7 +29,7 @@ export default function ListChoice({data, handleAcept, handleDeny}){
                                 aria-label="delete" 
                                 color="secondary" 
                                 sx={{marginRight:'10px'}}
-                                onClick={()=>handleDeny(item.id)}
+                                onClick={()=>handleDeny(item)}
                             >
                                 <CloseIcon />
                             </IconButton>

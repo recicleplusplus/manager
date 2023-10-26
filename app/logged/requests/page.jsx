@@ -2,6 +2,8 @@
 import React, {useEffect, useState} from 'react';
 import {GetUsersRequests} from '../../../services/user';
 import { RegisterUser, RemoveUserRequest } from '../../../services/user';
+import { getAccessDennyHtml, getAccessAcceptHtml} from '../../../services/emailsTemplate'
+import { sendEmail } from '../../../services/sendEmail';
 
 import ListChoice from '../components/list';
 import Typography from '@mui/material/Typography';
@@ -15,16 +17,17 @@ export default function Requests() {
 
     useEffect(() => {
         const unsubscribe = GetUsersRequests((data)=>{
-            console.log(data);
             setRequests(data);
         })
         return () => unsubscribe();
     },[])
 
 
-    function handleAcept(item){
-        RegisterUser(item, (code, message)=>{
+    function handleAcept(user){
+        RegisterUser(user, (code, message)=>{
             if(code === 200){
+                sendEmail(user.email, 'Cadastro Aprovado (Recicle++)', 
+                    getAccessAcceptHtml('http://localhost:3000/sign', user.name, user.email, 'Recicle++ (Donor)'))
                 setSuccess({code, message});
             }else{
                 setError({code, message});
@@ -32,15 +35,18 @@ export default function Requests() {
         })
     }
 
-    function handleDeny(id){
-        RemoveUserRequest(id, (code, message)=>{
+    function handleDeny(user){
+        RemoveUserRequest(user.id, (code, message)=>{
             if(code === 200){
+                sendEmail(user.email, 'Cadastro Negado (Recicle++)', getAccessDennyHtml(user.name, "Recicle++ (Donor)"))
                 setSuccess({code, message});
             }else{
                 setError({code, message});
             }
         })
     }
+
+    
     
     return (
         requests.length === 0 ? <Typography variant="h5" component="div" gutterBottom>Não há solicitações de cadastro</Typography>

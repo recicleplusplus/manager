@@ -8,7 +8,6 @@ import ListItemButton from '@mui/material/ListItemButton';
 import Avatar from '@mui/material/Avatar';
 import Typography from '@mui/material/Typography';
 import IconButton from '@mui/material/IconButton';
-import DeleteIcon from '@mui/icons-material/Delete';
 import Pagination from '@mui/material/Pagination';
 import AddCircleOutlinedIcon from '@mui/icons-material/AddCircleOutlined';
 import DoDisturbIcon from '@mui/icons-material/DoDisturb';
