@@ -28,25 +28,18 @@
 
 .iconContainer {
     background-color: rgb(204, 253, 195);
-    /* Cor de fundo do ícone */
     width: 60px;
-    /* Largura fixa */
     height: 60px;
-    /* Altura fixa */
     display: flex;
     align-items: center;
     justify-content: center;
     border-radius: 12px;
-    /* Borda arredondada */
     margin-right: 15px;
-    /* Espaçamento entre o ícone e o texto */
     flex-shrink: 0;
-    /* Evita que o contêiner encolha */
 }
 
 .icon {
     height: 40px;
-    /* Tamanho do ícone */
 }
 
 .info h3 {
@@ -61,7 +54,6 @@
     margin: 5px 0 0;
 }
 
-/* Seção de resíduos coletados */
 .wasteSection {
     margin-top: 40px;
     padding: 20px;

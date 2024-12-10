@@ -1,15 +1,14 @@
 import React from 'react';
-import styles from './Dashboard.module.css'; // Importa o CSS Module
+import styles from './Dashboard.module.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHouse, faUser, faRecycle, faHandshake } from '@fortawesome/free-solid-svg-icons';
 
 const Dashboard = () => {
-    // Dados simulados (com ícones do Font Awesome e emojis)
     const stats = [
-        { title: 'Coletores', value: 3456, icon: faUser }, // Ícone do Font Awesome
-        { title: 'Doadores', value: 3, icon: faHouse }, // Emoji
-        { title: 'Resíduos coletados', value: '3t', icon: faRecycle }, // Emoji
-        { title: 'Coletas feitas', value: 12, icon: faHandshake }, // Emoji
+        { title: 'Coletores', value: 3456, icon: faUser }, 
+        { title: 'Doadores', value: 3, icon: faHouse }, 
+        { title: 'Resíduos coletados', value: '3t', icon: faRecycle },
+        { title: 'Coletas feitas', value: 12, icon: faHandshake },
     ];
 
     const wasteData = [
