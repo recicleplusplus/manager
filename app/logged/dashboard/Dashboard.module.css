@@ -1,0 +1,109 @@
+.dashboardContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 200px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.iconContainer {
+    background-color: rgb(204, 253, 195);
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+    margin-right: 15px;
+    flex-shrink: 0;
+}
+
+.icon {
+    height: 40px;
+}
+
+.info h3 {
+    font-size: 16px;
+    color: #555;
+    margin: 0;
+}
+
+.info p {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 5px 0 0;
+}
+
+.wasteSection {
+    margin-top: 40px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.wasteSection h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.wasteList {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.wasteItem {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.wasteType {
+    flex: 1;
+    font-size: 16px;
+    color: #555;
+}
+
+.wasteBarContainer {
+    flex: 4;
+    margin: 0 15px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    overflow: hidden;
+    height: 20px;
+}
+
+.wasteBar {
+    height: 100%;
+    border-radius: 5px;
+}
+
+.wasteAmount {
+    flex: 1;
+    text-align: right;
+    font-size: 16px;
+    font-weight: bold;
+    color: #555;
+}
