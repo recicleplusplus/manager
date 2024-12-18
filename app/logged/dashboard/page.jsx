@@ -131,7 +131,7 @@ const Dashboard = () => {
                         </div>
                         <div className={styles.info}>
                             <h3>{item.title}</h3>
-                            <p>{item.value}</p>
+                            {item.title == "Resíduos coletados" ? <p>{item.value} kg</p> : <p>{item.value}</p>}
                         </div>
                     </div>
                 ))}
@@ -152,7 +152,7 @@ const Dashboard = () => {
                                     }}
                                 ></div>
                             </div>
-                            <span className={styles.wasteAmount}>{waste.amount}t</span>
+                            <span className={styles.wasteAmount}>{waste.amount} kg</span>
                         </div>
                     ))}
                 </div>
